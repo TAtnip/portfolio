@@ -8,7 +8,11 @@ This project was initially performed solely in a python notebook. I utilize NLP 
 ## Google Cloud Platform Healthcare - Python, SQL - Google Cloud Platform, MageAI, BigQuery, Looker Studio
 Modern Data Engineering GCP Project. The purpose of this  project was to analyze the effect of medication on length-of-stay while accounting for various mediators. I perform ETL using MageAI on a Windows instance, upload to google cloud storage, analyze with BigQuery, and end by performing Data Analysis in Looker Studio.
 
+8/9/24 - Readme coming soon
+
 ## Microsoft Fabric Earthquakes - Python - Microsoft Fabric, PowerBI
 Modern Data Engineering and Analysis Project. The purpose of this project was to extract and transform data using Python from the Earthquake USGS API, then perform data analysis using PowerBI.
+
+8/9/24 - Readme coming soon
 
 
