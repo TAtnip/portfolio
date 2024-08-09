@@ -1,9 +1,30 @@
-# Clinician Evaluation NLP - Full Data Engineering, Data Science, Data Analysis Project - Python, Spark SQL - Microsoft Fabric, Azure, MLFlow, PowerBI
+# Clinician Evaluation NLP - Full Data Engineering, Data Science, Data Analysis Project - Python, Spark SQL - Microsoft Fabric, Synapse Data Engineering & Data Science Azure, MLFlow, PowerBI
 
 ## Introduction
 The purpose of this project was to inform clinicians, physicians, and case managers to reduce length-of-stay and identify those patients who will require further rehabilitation after the acute care visit.
 
 This project was initially performed solely in a python notebook. I utilize and explore NLP packages such as re, gensim, and NLTK as well as gpt-4o from OpenAI on thier efficacy to analyze clinician evaluations for data. I work with Azure to obtain a free trial capacity in Microsoft Fabric by creating a second user with a free azure account, upload all evaluations to a container on azure, then utilize Microsoft fabric for data engineering including ETL and an automated data pipeline, MLFlow for the creation of four separate Machine Learning models, then PowerBI for analysis of the evaluation data.
 
+
+
+## Evaluations and HIPAA
+This project focuses on physical therapy evaluations in the acute care setting. Clinician evaluations are protected by HIPAA law due to the PHI which it contains. Therefore, for this project I created 10 pseudo-evaluations containing with different styles of writing that I have seen as a clinician. These evaluations were uploaded to a container in Microsoft Azure Blob Storage. In order to expand my sample size, I also created a dataset with 1000 evaluations randomly with data influenced by logic. 
+![AzureBlobStorage](https://github.com/user-attachments/assets/6dd3a41d-38ec-4208-a9fd-5dd99e3d5eb0)
+
+## Natural Language Processing Exploration
+This project is partially a documentation of my exploration of various natural language processing techniques to extract data from the evaluations. I utilized re and NLTK to pull information from short input fields such as ordering provider or fusion. I then explored the use of gensim and word mover's distance to analyze the efficacy of using this to pull information from paragraphs of prior level of function and mobility assessments. This proved to likely be inaccurate. After this, I attempted the OpenAI API with gpt-4o to analyze these paragraphs. While this took some tuning of the GPT, I found it to be accurate and effective. It was able to analyze an evaluaton at less than one cent per evaluation, which for this project is well worth it.
+
+## Machine Learning Models
+Within this project, I create models which are useful for predicting length-of-stay and the need for a rehabilitation stay after discharge. For the continuous variable, length-of-stay, I utilize a RANSAC regression model and a random forest regression model. For the categorical variable, need for rehabilitation, I utilize a logistic regression model and a random forest classification model. I tune these appropriately to determine the best model. 
+
+![Microsoft Fabric](https://github.com/user-attachments/assets/ced3769c-0372-4f63-9065-18efefcf4d17)
+
+## Solving the Fabric Free Trial Capacity
+As it stands, I was unable to receive a fabric free trial capacity using my student email. This is due to settings associated with my tenant, the university I am attending. I was able to solve this by creating a free Azure trial account with which I was able to create a member user with it's own Microsoft Account. This account was then able to sign up for a free fabric trial capacity, which I used for the duration of this project.
+![Azure Users](https://github.com/user-attachments/assets/aa882053-5ad9-4294-bd6f-2ffc9a65c656)
+
+## Data Pipeline
+In Microsoft Fabric, I create a 3 layered pipeline. The bronze layer extracts the raw data from the evaluations. The silver layer cleans the data and is where the natural language processing occurs. The gold layer applies some business logic for later use. This pipeline is automated to run weekly.
+
 ## Conclusions
-![powerBIDashboard](Microsoft Fabric 15 PT Eval Dashboard- Patients from Home.pdf)
+![PowerBI Dashboard page 1](https://github.com/user-attachments/assets/3cdb1286-beba-4691-9258-c3fdaace9cc6)
