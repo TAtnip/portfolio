@@ -30,5 +30,18 @@ In Microsoft Fabric, I create a 3 layered pipeline. I refactored my previous not
 ## MLFlow
 Within MLFlow, I was able to refactor my machine learning models and create a clear method of comparison of models. For some models I found it easier to log metrics and models manually. 
 
+## PowerBI
+In order to complete a few of my analyses in PowerBI, I took advantage of Spark SQL. Currently, it appears there is a lack of documentation on SQL queries in the lakehouse for Microsoft Fabric, as some functionality at this time no longer works. I also found there to be a small learning curve to performing powerBI analysis on Microsoft Fabric rather than desktop or the online platform. 
+
 ## Conclusions
 ![PowerBI Dashboard page 1](https://github.com/user-attachments/assets/3cdb1286-beba-4691-9258-c3fdaace9cc6)
+
+This project provides several conclusions which empower stakeholders. Firstly, based on the analysis, we can see that individuals who ambulate further during the evaluation (and likely during the first day post-operation) are more likely to discharge sooner and to their home environment. We also are able to derive inferences on pain. The charts created are able to suggest that patients in severe pain during the evaluation have a greater likelihood to discharge to a rehabilitation facility and tend to have longer length-of-stay. These inferences give physical therapists the information required to suggest further ambulations for patients during the evaluation as well as physicians and nursing staff the information to suggest greater pain medication or pain reducing modalities on the day of the evaluation. 
+
+Based on the results of the machine learning models, our best model to predict length-of-stay was our Random Forest Regressor model with the parameters of {'max_depth': 3, 'max_features': None, 'min_samples_leaf': 8, 'min_samples_split': 30, 'n_estimators': 250}. For this model, we received an R^2 of 0.70. This tells us that our current data accounts for about **70%** of the variation in length-of-stay based on this model. Case managers, nurse managers, and hospital throughput facilitators can utilize this model to predict hospital capacity, staffing needs, and potential date of discharge. 
+
+Our best model **based on accuracy** to predict need for rehabilitation is the Random Forest Classifier model with the parameters of {'max_depth': 6, 'minInstancesperNode': 8}. Based on the accuracy score of 0.86, we are able to predict the outcome of need for rehabilitation based on the evaluation alone with this data roughly **86%** of the time. Precision was 92.75% for this model, while recall was 79.01%. Precision for the logistic regression model was 81.51% and recall was 86.61%. Based on precision and recall, it may be **more beneficial to utilize the logistic regression model** for need_rehab. This is because it likely is more beneficial to identify patients who are more likely to need rehab as there are a number of hospital processes that benefit from beginning earlier such as referrals for authorization and reduced plan of care to reduce length-of-stay for that patient in the acute care setting and improve frequency of those patients that are not expected to discharge to rehab to reduce length-of-stay for those patients as well.
+
+Finally, it is important that while the inferences of this project was mostly was created based on random evaluation data, it would not be very difficult to implement and adjust this towards real data. It would likely be as simple as refactoring some code to handle actual evaluations as well as funneling evaluations into Azure blob storage. 
+
+Thank you for taking the time to look over this project. If you have any questions, feel free to contact me.
