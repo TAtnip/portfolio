@@ -32,7 +32,7 @@ In Microsoft Fabric, I create a 3 layered pipeline. I refactored my previous not
 Within MLFlow, I was able to refactor my machine learning models and create a clear method of comparison of models. For some models I found it easier to log metrics and models manually. 
 
 ## PowerBI
-In order to complete a few of my analyses in PowerBI, I took advantage of Spark SQL. Currently, it appears there is a lack of documentation on SQL queries in the lakehouse for Microsoft Fabric, as some functionality at this time no longer works. I also found there to be a small learning curve to performing powerBI analysis on Microsoft Fabric rather than desktop or the online platform. 
+In order to complete a few of my analyses in PowerBI, I took advantage of Spark SQL. Currently, it appears there is a lack of documentation on SQL queries in the lakehouse for Microsoft Fabric, as some functionality at this time no longer works. I also found there to be a small learning curve to performing powerBI analysis on Microsoft Fabric rather than desktop or the online platform. There were also a few bugs in PowerBI on this platform, one of which changes all of my colors on the diagram and adjusted all font sizes and even select font types in one swoop. 
 
 ## Conclusions
 ![PowerBI Dashboard page 1](https://github.com/user-attachments/assets/3cdb1286-beba-4691-9258-c3fdaace9cc6)
