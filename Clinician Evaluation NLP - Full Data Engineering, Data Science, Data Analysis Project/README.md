@@ -44,4 +44,4 @@ Our best model **based on accuracy** to predict need for rehabilitation is the R
 
 Finally, it is important that while the inferences of this project was mostly was created based on random evaluation data, it would not be very difficult to implement and adjust this towards real data. It would likely be as simple as refactoring some code to handle actual evaluations as well as funneling evaluations into Azure blob storage. 
 
-Thank you for taking the time to look over this project. If you have any questions, feel free to contact me.
+Thank you for taking the time to look over this project. Throughout this project, I've learned a significant amount on Microsoft Fabric as well gained plenty of experience on the data cycle as a whole. If you have any questions, feel free to contact me.
