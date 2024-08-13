@@ -36,7 +36,7 @@ As it stands, I was unable to receive a fabric free trial capacity using my stud
 
 ![Azure Users](https://github.com/user-attachments/assets/aa882053-5ad9-4294-bd6f-2ffc9a65c656)
 
-## Data Pipeline - [Bronze](), [Silver](), [Gold]()
+## Data Pipeline - [Bronze](https://github.com/TAtnip/portfolio/blob/337f4191c7d27a35b1f7dc13f82d488c41f07e0b/Clinician%20Evaluation%20NLP%20-%20Full%20Data%20Engineering%2C%20Data%20Science%2C%20Data%20Analysis%20Project/Microsoft%20Fabric%20Implementation/01%20Bronze%20Layer%20NLP.ipynb), [Silver](), [Gold]()
 In Microsoft Fabric, I create a 3 layered pipeline. I refactored my previous notebooks containing the code to be ran outside of the cloud, to now be run in Microsoft Fabric. Spark integration with Microsoft Fabric notebooks was a game-changer, improving my ability to modify DataFrames as needed. The bronze layer extracts the raw data from the evaluations. The silver layer cleans the data and is where the natural language processing occurs. The gold layer applies some business logic for later use. This pipeline is automated to run weekly. I ran into various problems throughout this requiring me to create a custom python environment in Microsoft Fabric. During this time, I also notably ran into several bugs in Fabric leading to some inefficiencies such as the dreaded autoscroll bug. I found it was easier to modify my notebooks outside of fabric, then upload and run in Fabric for confirmation of functional code.
 ![Data Pipeline Successful Run](https://github.com/user-attachments/assets/ef22aaf0-e613-4b6f-b74f-5cb2475b11af)
 
