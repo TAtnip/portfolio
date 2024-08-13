@@ -1,9 +1,7 @@
 # Google Cloud Console Healthcare Project
 
 ## Introduction
-This project dives into the use of modern data engineering and analytics intended to develop a knowledgebase of several medication's effects on medical condition stratified by various demographics. 
-Effect was determined as length-of-stay. In this project I use tools such as Mage.ai to build an ETL pipeline on a virtual machine hosted on 
-Google Cloud Platform. I utilize BigQuery for data warehousing and Looker Studio for data visualization while using Cloud Storage for the handling of the data throughout these processes.
+This project dives into the use of modern data engineering and analytics intended to develop a knowledgebase of several medication's effects on medical condition stratified by various demographics. Effect was determined as length-of-stay. In this project I use tools such as Mage.ai to build an ETL pipeline on a virtual machine hosted on Google Cloud Platform. I utilize BigQuery for data warehousing and Looker Studio for data visualization while using Cloud Storage for the handling of the data throughout these processes.
 
 ## Architecture
 ![Architecturediagram](https://github.com/user-attachments/assets/8bd4b1b9-7651-40b3-ab7c-a503b29d06c8)
@@ -43,5 +41,11 @@ Transformations of the data were first tested and accumulated on a notebook: [Py
 I found the use of BigQuery and Looker Studio to be very fluid and easy to use. This is in contrast to my time using Microsoft Fabric Lakehouse, SQL analytics endpoint, and PowerBI, which was clunky and at the time with a few frustrating bugs. A table was created on BigQuery to house the healthcare data.
 
 ![Screenshot 2024-08-12 at 9 11 23 PM](https://github.com/user-attachments/assets/e6121589-4c71-4412-a26a-f3231aca2029)
+
+Finally, I was then able to incorporate this data into both a bar chart and a heat map pivot table to provide quick analysis of disparities by the various features which were included in the dataset. 
+
+[Hospital_dashboard.pdf](https://github.com/user-attachments/files/16593645/Hospital_dashboard.pdf)
+
+
 
 
