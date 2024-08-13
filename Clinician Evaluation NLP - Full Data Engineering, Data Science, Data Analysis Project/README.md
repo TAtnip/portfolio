@@ -14,7 +14,7 @@ This project was initially performed solely in a python notebook. I utilize and 
 3. Azure
   - Blob storage container
   - Creation of a new user
-5. Microsoft Fabric
+4. Microsoft Fabric
   - Data Lakehouse - Microsoft Lakehouse
   - MLFlow to manage and compare two classification and two regression models
   - PowerBI to create data visualizations
