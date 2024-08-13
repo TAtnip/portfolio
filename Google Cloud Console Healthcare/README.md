@@ -44,7 +44,7 @@ I found the use of BigQuery and Looker Studio to be very fluid and easy to use. 
 
 Finally, I was then able to incorporate this data into both a bar chart and a heat map pivot table to provide quick analysis of disparities by the various features which were included in the dataset. 
 
-[Hospital_dashboard.pdf](https://github.com/user-attachments/files/16593645/Hospital_dashboard.pdf)
+![Hospital_dashboard.pdf](https://github.com/user-attachments/files/16593645/Hospital_dashboard.pdf)
 
 
 
