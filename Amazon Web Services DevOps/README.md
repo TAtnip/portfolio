@@ -16,5 +16,12 @@ This project is an exercise in use of Amazon Web Services for production of an a
 6. Sonatype Nexus Repository
 7. GitHub
 
+## AWS setup
+![ec2instances](https://github.com/user-attachments/assets/f433736a-46e4-4587-a238-1d5882c02871)
+
+This project involved the setup of both Linux and Windows EC2 instances. There was not necessarily a specific reason to do this besides for my own personal learning of how this might be done. I had to research methods of connecting to my Linux unit especially, for which I found PuTTY. PuTTY is a very lightweight client that can be used to manage your keys and access instances. After connecting, I installed GCC to be able to create and test my XMLParser which was written in Python.
+
+![linuxgcc](https://github.com/user-attachments/assets/6765bd9b-6bc6-4395-8c39-9b7a5dc968ed)
+
 
 
