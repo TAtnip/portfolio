@@ -45,7 +45,7 @@ Within MLFlow, I was able to refactor my machine learning models and create a cl
 
 ![Logistic Regression MLFlow](https://github.com/user-attachments/assets/90f9754c-f63a-4726-99a3-0dcfab0fec0b)
 
-## PowerBI
+## PowerBI - [Spark SQL]()
 In order to complete a few of my analyses in PowerBI, I took advantage of Spark SQL. Currently, it appears there is a lack of documentation on SQL queries in the lakehouse for Microsoft Fabric, as some functionality at this time no longer works. I also found there to be a small learning curve to performing powerBI analysis on Microsoft Fabric rather than desktop or the online platform. There were also a few bugs in PowerBI on this platform, one of which changes all of my colors on the diagram and adjusted all font sizes and even selects font types in one swoop. 
 
 ## Conclusions
