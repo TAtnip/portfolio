@@ -19,11 +19,11 @@ This project was initially performed solely in a python notebook. I utilize and 
   - MLFlow to manage and compare two classification and two regression models
   - PowerBI to create data visualizations
 
-## Evaluations and HIPAA
+## Evaluations and HIPAA - [Evaluation Generator]()
 This project focuses on physical therapy evaluations in the acute care setting. Clinician evaluations are protected by HIPAA law due to the PHI which it contains. Therefore, for this project I created 10 pseudo-evaluations containing with different styles of writing that I have seen as a clinician. These evaluations were uploaded to a container in Microsoft Azure Blob Storage. In order to expand my sample size, I also created a dataset with 1000 evaluations randomly with data influenced by logic. 
 ![AzureBlobStorage](https://github.com/user-attachments/assets/6dd3a41d-38ec-4208-a9fd-5dd99e3d5eb0)
 
-## Natural Language Processing Exploration - 
+## Natural Language Processing Exploration - [NLP Notebook](https://github.com/TAtnip/portfolio/blob/ba4251338c2f8b1aae24861b32aeb512b72c17ee/Clinician%20Evaluation%20NLP%20-%20Full%20Data%20Engineering%2C%20Data%20Science%2C%20Data%20Analysis%20Project/01%20NLP%20GPT%20Exploration.ipynb)
 This project is partially a documentation of my exploration of various natural language processing techniques to extract data from the evaluations. I utilized re and NLTK to pull information from short input fields such as ordering provider or fusion. I then explored the use of gensim and word mover's distance to analyze the efficacy of using this to pull information from paragraphs of prior level of function and mobility assessments. This proved to likely be inaccurate. After this, I attempted the OpenAI API with gpt-4o to analyze these paragraphs. While this took some tuning of the GPT, I found it to be accurate and effective. It was able to analyze an evaluaton at less than one cent per evaluation, which for this project is well worth it.
 
 ## Machine Learning Models
