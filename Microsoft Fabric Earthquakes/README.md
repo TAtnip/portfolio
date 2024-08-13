@@ -5,7 +5,7 @@ This project uses the United States Geological Survey API to extract data, trans
 
 ## Technology Used
 1. Programming language - Python
-2. USGS API - *https://earthquake.usgs.gov/fdsnws/event/1/
+2. USGS API - https://earthquake.usgs.gov/fdsnws/event/1/
 3. Microsoft Fabric
   - Data Lakehouse
   - [Custom Python Environment](https://github.com/TAtnip/portfolio/blob/7e2f106231b67ed0889d87382c93c57845cc69e0/Microsoft%20Fabric%20Earthquakes/Python%20environment.png)
