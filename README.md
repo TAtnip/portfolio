@@ -17,6 +17,4 @@ Full DevOps project moving an XML Parser program written in C++ from a Linux EC2
 ## Microsoft Fabric Earthquakes - Python - USGS API, Microsoft Fabric, PowerBI
 Modern Data Engineering and Analysis Project. The purpose of this project was to extract and transform data using Python from the Earthquake USGS API, create a functional automated ETL data pipeline, then perform data analysis using PowerBI.
 
-8/12/24 - Readme coming on 8/13/24
-
 
