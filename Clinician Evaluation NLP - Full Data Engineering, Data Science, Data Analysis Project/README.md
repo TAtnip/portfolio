@@ -5,14 +5,25 @@ The purpose of this project was to inform clinicians, physicians, and case manag
 
 This project was initially performed solely in a python notebook. I utilize and explore NLP packages such as re, gensim, and NLTK as well as gpt-4o from OpenAI on thier efficacy to analyze clinician evaluations for data. I work with Azure to obtain a free trial capacity in Microsoft Fabric by creating a second user with a free azure account, upload all evaluations to a container on azure, then utilize Microsoft fabric for data engineering including ETL and an automated data pipeline, MLFlow for the creation of four separate Machine Learning models, then PowerBI for analysis of the evaluation data.
 
+## Architecture
 ![Architecture Diagram](https://github.com/user-attachments/assets/40888887-cda9-4d14-8352-58d57701f0c0)
 
+## Technology Used
+1. Programming language - Python
+2. Scripting language - Spark SQL
+3. Azure
+  - Blob storage container
+  - Creation of a new user
+5. Microsoft Fabric
+  - Data Lakehouse - Microsoft Lakehouse
+  - MLFlow to manage and compare two classification and two regression models
+  - PowerBI to create data visualizations
 
 ## Evaluations and HIPAA
 This project focuses on physical therapy evaluations in the acute care setting. Clinician evaluations are protected by HIPAA law due to the PHI which it contains. Therefore, for this project I created 10 pseudo-evaluations containing with different styles of writing that I have seen as a clinician. These evaluations were uploaded to a container in Microsoft Azure Blob Storage. In order to expand my sample size, I also created a dataset with 1000 evaluations randomly with data influenced by logic. 
 ![AzureBlobStorage](https://github.com/user-attachments/assets/6dd3a41d-38ec-4208-a9fd-5dd99e3d5eb0)
 
-## Natural Language Processing Exploration
+## Natural Language Processing Exploration - 
 This project is partially a documentation of my exploration of various natural language processing techniques to extract data from the evaluations. I utilized re and NLTK to pull information from short input fields such as ordering provider or fusion. I then explored the use of gensim and word mover's distance to analyze the efficacy of using this to pull information from paragraphs of prior level of function and mobility assessments. This proved to likely be inaccurate. After this, I attempted the OpenAI API with gpt-4o to analyze these paragraphs. While this took some tuning of the GPT, I found it to be accurate and effective. It was able to analyze an evaluaton at less than one cent per evaluation, which for this project is well worth it.
 
 ## Machine Learning Models
