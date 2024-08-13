@@ -11,4 +11,4 @@ This project uses the United States Geological Survey API to extract data, trans
   - [Custom Python Environment](https://github.com/TAtnip/portfolio/blob/7e2f106231b67ed0889d87382c93c57845cc69e0/Microsoft%20Fabric%20Earthquakes/Python%20environment.png)
   - PowerBI
 
-## Automated ETL Data Pipeline - [Bronze](), [Silver](), [Gold]()
+## Automated ETL Data Pipeline - [Bronze](https://github.com/TAtnip/portfolio/blob/03e81f22bea3e894f7bc5483a3ed76a6fe5d8901/Microsoft%20Fabric%20Earthquakes/Bronze%20Layer.ipynb), [Silver](), [Gold]()
