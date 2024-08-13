@@ -13,7 +13,7 @@ Modern Data Engineering GCP Project. The purpose of this  project was to analyze
 ## Amazon Webservices DevOps Pathway - C++ - Amazon Web Services Redhat and Windows EC2 instances, Jenkins, Nexus, PUTTY
 Full DevOps project moving an XML Parser program written in C++ from a Linux EC2 instance hosted on Amazon Web Services all the way to a production server. Specific emphasis is given to secure set up and configuration of EC2 instances. 
 
-8/11/24 - Readme and project upload coming on 8/12/24
+8/11/24 - Readme
 
 ## Microsoft Fabric Earthquakes - Python - Microsoft Fabric, PowerBI
 Modern Data Engineering and Analysis Project. The purpose of this project was to extract and transform data using Python from the Earthquake USGS API, then perform data analysis using PowerBI.
