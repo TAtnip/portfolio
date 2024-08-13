@@ -29,11 +29,12 @@ This project is partially a documentation of my exploration of various natural l
 ## Machine Learning Models - [Machine Learning Notebook](https://github.com/TAtnip/portfolio/blob/cf4e79340e89b42e479034e07954f4f603229b82/Clinician%20Evaluation%20NLP%20-%20Full%20Data%20Engineering%2C%20Data%20Science%2C%20Data%20Analysis%20Project/03%20ML%20Models.ipynb)
 Within this project, I create models which are useful for predicting length-of-stay and the need for a rehabilitation stay after discharge. For the continuous variable, length-of-stay, I utilize a RANSAC regression model and a random forest regression model. For the categorical variable, need for rehabilitation, I utilize a logistic regression model and a random forest classification model. I tune these appropriately to determine the best model. 
 
-![Microsoft Fabric](https://github.com/user-attachments/assets/ced3769c-0372-4f63-9065-18efefcf4d17)
-
 ## Solving the Fabric Free Trial Capacity
+![Microsoft Fabric](https://github.com/user-attachments/assets/ced3769c-0372-4f63-9065-18efefcf4d17)
 As it stands, I was unable to receive a fabric free trial capacity using my student email. This is due to settings associated with my tenant, the university I am attending. I was able to solve this by creating a free Azure trial account with which I was able to create a member user with it's own Microsoft Account. This account was then able to sign up for a free fabric trial capacity, which I used for the duration of this project.
 ![Azure Users](https://github.com/user-attachments/assets/aa882053-5ad9-4294-bd6f-2ffc9a65c656)
+
+
 
 ## Data Pipeline
 In Microsoft Fabric, I create a 3 layered pipeline. I refactored my previous notebooks containing the code to be ran outside of the cloud, to now be run in Microsoft Fabric. Spark integration with Microsoft Fabric notebooks was a game-changer, improving my ability to modify DataFrames as needed. The bronze layer extracts the raw data from the evaluations. The silver layer cleans the data and is where the natural language processing occurs. The gold layer applies some business logic for later use. This pipeline is automated to run weekly. I ran into various problems throughout this requiring me to create a custom python environment in Microsoft Fabric. During this time, I also notably ran into several bugs in Fabric leading to some inefficiencies such as the dreaded autoscroll bug. I found it was easier to modify my notebooks outside of fabric, then upload and run in Fabric for confirmation of functional code.
