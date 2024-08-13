@@ -8,5 +8,7 @@ This project uses the United States Geological Survey API to extract data, trans
 2. USGS API
 3. Microsoft Fabric
   - Data Lakehouse
-  - [Custom Python Environment]()
+  - [Custom Python Environment](https://github.com/TAtnip/portfolio/blob/7e2f106231b67ed0889d87382c93c57845cc69e0/Microsoft%20Fabric%20Earthquakes/Python%20environment.png)
   - PowerBI
+
+## Automated ETL Data Pipeline - [Bronze](), [Silver](), [Gold]()
