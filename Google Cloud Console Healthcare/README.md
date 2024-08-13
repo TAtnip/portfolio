@@ -35,8 +35,13 @@ The dataset used in this project was obtained on Kaggle, a data science communit
 <img width="580" alt="Model" src="https://github.com/user-attachments/assets/c15d4118-fe24-408e-9c48-ef816a578d9e">
 
 ## Pipeline
-Transformations of the data were first tested and accumulated on a notebook: [Python Notebook](Google Cloud Console Healthcare/Hospital Admission Data Transformations.ipynb)
+Transformations of the data were first tested and accumulated on a notebook: [Python Transformations](https://github.com/TAtnip/portfolio/blob/51bbf7a5a942944dab176a722ff206ab7db8a101/Google%20Cloud%20Console%20Healthcare/Hospital%20Admission%20Data%20Transformation.ipynb). These transformations were then adapated to be used in a pipeline with Mage.ai to be uploaded to BigQuery. During the use of Mage.ai, I had ran into an issue which essentially was due to Git not being installed on the Google instance. After installing Git to the instance, I had a functional pipeline for my data.
 
+![MageAI to BigQuery](https://github.com/user-attachments/assets/cb501b6e-0dfc-4979-8a63-e284c434a0df)
 
+## BigQuery & Looker Studio
+I found the use of BigQuery and Looker Studio to be very fluid and easy to use. This is in contrast to my time using Microsoft Fabric Lakehouse, SQL analytics endpoint, and PowerBI, which was clunky and at the time with a few frustrating bugs. A table was created on BigQuery to house the healthcare data.
+
+![Screenshot 2024-08-12 at 9 11 23 PM](https://github.com/user-attachments/assets/e6121589-4c71-4412-a26a-f3231aca2029)
 
 
