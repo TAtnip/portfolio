@@ -19,7 +19,7 @@ This project was initially performed solely in a python notebook. I utilize and 
   - MLFlow to manage and compare two classification and two regression models
   - PowerBI to create data visualizations
 
-## Evaluations and HIPAA - [Evaluation Generator]()
+## Evaluations and HIPAA - [Evaluation Generator](https://github.com/TAtnip/portfolio/blob/ee25b6c206b6816446bff5977388cd733e0fe260/Clinician%20Evaluation%20NLP%20-%20Full%20Data%20Engineering%2C%20Data%20Science%2C%20Data%20Analysis%20Project/02%20Evaluation%20Generator.ipynb)
 This project focuses on physical therapy evaluations in the acute care setting. Clinician evaluations are protected by HIPAA law due to the PHI which it contains. Therefore, for this project I created 10 pseudo-evaluations containing with different styles of writing that I have seen as a clinician. These evaluations were uploaded to a container in Microsoft Azure Blob Storage. In order to expand my sample size, I also created a dataset with 1000 evaluations randomly with data influenced by logic. 
 ![AzureBlobStorage](https://github.com/user-attachments/assets/6dd3a41d-38ec-4208-a9fd-5dd99e3d5eb0)
 
