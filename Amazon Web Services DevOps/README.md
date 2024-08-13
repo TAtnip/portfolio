@@ -10,9 +10,9 @@ This project is an exercise in use of Amazon Web Services for production of an a
 1. AWS
   - RedHat instance
   - Windows instance
-3. Redhat Package Manager (RPM) to create a package with the build environment and configurations
-4. PuTTY SSH client to access instances
-5. Cygwin64 to compile my C++ program on the Windows instance
+2. Redhat Package Manager (RPM) to create a package with the build environment and configurations
+3. PuTTY SSH client to access instances
+4. Cygwin64 to compile my C++ program on the Windows instance
 5. Jenkins to create my build and send to the Sonatype Nexus Repository
 6. Sonatype Nexus Repository
 7. GitHub
