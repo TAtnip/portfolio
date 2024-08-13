@@ -31,6 +31,7 @@ Within this project, I create models which are useful for predicting length-of-s
 
 ## Solving the Fabric Free Trial Capacity
 ![Microsoft Fabric](https://github.com/user-attachments/assets/ced3769c-0372-4f63-9065-18efefcf4d17)
+
 As it stands, I was unable to receive a fabric free trial capacity using my student email. This is due to settings associated with my tenant, the university I am attending. I was able to solve this by creating a free Azure trial account with which I was able to create a member user with it's own Microsoft Account. This account was then able to sign up for a free fabric trial capacity, which I used for the duration of this project.
 ![Azure Users](https://github.com/user-attachments/assets/aa882053-5ad9-4294-bd6f-2ffc9a65c656)
 
