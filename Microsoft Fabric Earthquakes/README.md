@@ -18,7 +18,7 @@ This project primarily involves the creation of an automated ETL data pipeline u
 
 
 ## PowerBI Report
-This was an unfortunate part of the project. As I am using a Fabric free trial capacity, there are certain features which I am unable to access. Map visualizations are one of them. This map was intended to be essentially a global heat map of earthquakes over time with tool tips detailing informations such as severity. 
+This was an unfortunate part of the project. As I am using a Fabric free trial capacity, there are certain features which I am unable to access. Map visualizations are one of them. This map was intended to be essentially a global heat map of earthquakes over time with tool tips detailing information such as severity. 
 
 ![PowerBI Map Report](https://github.com/user-attachments/assets/5b363784-33a9-4cf9-83cd-3dc27d55f21c)
 
