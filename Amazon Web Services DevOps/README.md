@@ -7,11 +7,14 @@ This project is an exercise in use of Amazon Web Services for production of an a
 ![Architecturediagram](https://github.com/user-attachments/assets/3b4351fd-6f50-4966-905e-b13331ba2fa7)
 
 ## Technology Used
-1. AWS Linux Redhat EC2 instance
-2. AWS Windows EC2 instance
-3. PuTTY SSH client to access instances
-4. Jenkins
-5. Sonatype Nexus Repository
-6. GitHub
+1. AWS
+  - RedHat instance
+  - Windows instance
+3. Redhat Package Manager (RPM) to create a package with the build environment and configurations
+4. PuTTY SSH client to access instances
+5. Jenkins
+6. Sonatype Nexus Repository
+7. GitHub
+
 
 
