@@ -11,7 +11,7 @@ Modern Data Engineering GCP Project. The purpose of this  project was to analyze
 
 
 ## Amazon Webservices DevOps Pathway - C++ - AWS Redhat and Windows EC2 instances, Jenkins, Nexus, PuTTY
-Full DevOps project moving an XML Parser program written in C++ from a Linux EC2 instance hosted on Amazon Web Services all the way to a repository on Sonatype Nexus using Jenkins to create a build. Emphasis is also given to secure set up and configuration of EC2 instances. 
+Full DevOps project moving an XML Parser program written in C++ from a Linux EC2 instance hosted on Amazon Web Services all the way to a repository on Sonatype Nexus using Jenkins to create the build. Emphasis is also given to secure set up and configuration of EC2 instances. 
 
 
 ## Microsoft Fabric Earthquakes - Python - Microsoft Fabric, PowerBI
