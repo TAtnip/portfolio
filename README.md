@@ -1,7 +1,7 @@
 # Project List
 Visit the README on each individual project for a full summary of each project.
 ## Natural Language Processing of Clinician Evaluations - Complete Data Engineering, Data Science, Data Analysis Project
-## Python, Spark SQL
+Python, Spark SQL /
 Microsoft Fabric, Synapse Data Engineering & Data Science, Azure, MLFlow, PowerBI, Spark
 
 Modern Data Engineering, Data Science, Data Analysis project. The purpose of this project was to inform clinicians, physicians, and case managers to reduce length-of-stay and identify those patients who will require further rehabilitation after the acute care visit. 
