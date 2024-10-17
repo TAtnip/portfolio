@@ -1,5 +1,15 @@
 # Project List
 Visit the README on each individual project for a full summary of each project.
+
+## Project Performance-main/capstoneProject - Full Stack Django-React Application
+JavaScript, CSS, Python
+Django, React, PostgreSQL, JWT Authentication, Chart.js
+
+A complete web application which provides users both the ability to track fitness metrics as well as create their own customizable data visualizations. This application is focused towards the elite level athlete who requires individualized, detailed programming to continue to make adaptations and achieve their fitness goals. Using Chart.js, the athlete is given the tools necessary to analyze their progress and develop inferences based on their performance and program.
+
+A Django backend API is implemented served by a PostgreSQL database to handle data requests and retrieval. JWT authentication is implemented to handle secure data authentication and authorization.
+
+
 ## Natural Language Processing of Clinician Evaluations - Complete Data Engineering, Data Science, Data Analysis Project
 Python, Spark SQL \
 Microsoft Fabric, Synapse Data Engineering & Data Science, Azure, MLFlow, PowerBI, Spark
