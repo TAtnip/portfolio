@@ -39,6 +39,14 @@ My project takes advantage of JWT authentication which relies on access and refr
 
 ![Screenshot 2024-12-06 at 10 45 00 AM](https://github.com/user-attachments/assets/f2b75317-4067-4828-af2d-56484eeefed1)
 
+## Visualizing Performance
 
+The 'bread and butter' of this project is the visualizations it is capable of producing based on the resistance training data. It creates these visualizations by determining performance by muscle group (aimed towards bodybuilding) and by exercise (aimed towards powerlifting). If you have some experience in the realm, you might understand that there are certain times where you push your body to absolute failure, and others where you only get close to failure. The application in its current form tracks this, and utilizes an algorithm to determine your projected maximal performance as if you had pushed the lift to absolute failure. For the muscle group, it visualizes relative increase in performance as a percentage across all lifts which include this muscle group. The user is capable of adjusting the muscle groups in each lift as preferred as this is something which is consistently debated in the field already.
 
-To be continued!
+### Moving Forward
+
+I believe there continues to be a significant number of improvements to be made in this project. Firstly, we can consider utilizing AI / ML to determine optimal loading strategies, optimal programs to accomplish specific goals based on the individual (think recommender systems and clustering to determine others the individual may be similar to, as well as the individuals prior performance). There is also a big avenue for adding in nutrition and sleep data as these have significant roles in performance based on research. For example, if we understand that the night before a session we had only 4 hours of sleep relative to our average of 8, we may have different performance and thus we may need to take our performance results with a grain of salt. In terms of UI/UX there are likely an almost infinite number of improvements including a wide variety of useful notifications. My primary goal for this project was not only to create something useful for the athlete, but also to learn these frameworks and tools mentioned throughout this document. Thus, UI/UX was a slightly lower priority. Regardless, I was able to harness some useful tools, such as Adobe's AI image generator to create a calm, themed background for the project. I also gained some valuable practice in CSS, which gave me even more experience in understanding the importance of React components.
+
+## Conclusion
+
+Overall, this project is something that I am proud of as at every step I was able to learn something new. From managing new frameworks, creating my own API, to the insertion of valuable techniques utilized in the field to determine performance, I gained a significant insight into the software development life cycle to create a functional product. Perhaps one day I may revisit this project to improve upon it further and make available to the general public as a free tool with the database hosted on an old laptop. 
