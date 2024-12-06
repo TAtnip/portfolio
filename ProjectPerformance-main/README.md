@@ -8,7 +8,8 @@ Fitness Applications are typically a structured notes application. This project 
 1. Programming Languages - Python, JavaScript
 2. Frameworks - Django, React
 3. Database - PostgreSQL
-4. Authentication - JWT Authentication
+4. Authentication - JWT
+5. Key Data Visualization Package - React-chart.js
 
 
 To be continued!
