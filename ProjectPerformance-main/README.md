@@ -11,5 +11,4 @@ Fitness Applications are typically a structured notes application. This project 
 4. Authentication - JWT
 5. Key Data Visualization Package - React-chart.js
 
-
-To be continued!
+## 
