@@ -14,3 +14,7 @@ Fitness Applications are typically a structured notes application. This project 
 ## Project Setup
 
 This project relies on a Django backend API served by a PostgreSQL database to handle fitness data management. The backend also implements JWT authentication to handle secure data authentication and authorization for the user. The React frontend brings the power of component-driven UI with quick response times to improve the user experience throughout the application. 
+
+Admittedly, I ran into several issues when first tackling this project. I had not used either framework before and thus there was a learning curve which involved determining how to best create my own RESTful API, how to harness components within React, and how to utilize Axios to obtain access and refresh tokens to provide both a seamless and secure experience for the user.
+
+To be continued!
